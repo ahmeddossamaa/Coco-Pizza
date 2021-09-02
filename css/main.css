@@ -1,0 +1,79 @@
+.container{
+    width: 80%;
+}
+
+section{
+    padding: 4rem 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+/* landing style start */
+
+nav{
+    z-index: 10;
+}
+
+nav .container img{
+    width: 70px;
+}
+
+nav .container ul{
+    margin: 0 !important;
+}
+
+nav .container ul li a{
+    transition: 0.2s;
+}
+
+nav .container ul li:hover a{
+    color: red !important;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    font-weight: bold;
+}
+
+/* landing style end */
+
+/* second section style start */
+
+.second-section{
+    background-image: url('../images/offer.jpg');
+}
+
+/* second section style end */
+
+/* third section style start */
+
+.third-section{
+    background-image: url('../images/dish.jpg');
+}
+
+/* third section style end */
+
+/* fourth section style start */
+
+.fourth-section section:first-child{
+    background-image: url('../images/book.jpg');
+}
+
+footer input[type='text']{
+    width: 270px;
+}
+
+footer input[type='submit']{
+    border: none;
+    outline: none;
+    padding: 3px;
+    width: 80px;
+    margin: -85px;
+}
+
+/* fourth section style end */
